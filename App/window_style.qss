@@ -1,0 +1,29 @@
+QListWidget {
+    color: #FFFFFF;
+    background-color: #33373B;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+QListWidget::item {
+    height: 50px;
+}
+
+QListWidget::item:selected {
+    background-color: #2ABf9E;
+}
+
+QLabel {
+    background-color: #FFFFFF;
+    qproperty-alignment: AlignCenter;
+}
+
+QPushButton {
+    background-color: #2ABf9E;
+    padding: 5px;
+    font-size: 17px;
+}
+QTreeWidget {
+    font-size: 12px;
+    font-family:  'monospace', monospace, 'Droid Sans Fallback';
+}
